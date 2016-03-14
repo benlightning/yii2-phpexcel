@@ -220,7 +220,7 @@ require_once __DIR__.'/PHPExcel.php';
  * @copyright 2014
  * @since 1
  */
-class ExcelWidget extends \yii\base\Widget {
+class Excel extends \yii\base\Widget {
 
     /**
      * @var string mode is an export mode or import mode. valid value are 'export' and 'import'.
